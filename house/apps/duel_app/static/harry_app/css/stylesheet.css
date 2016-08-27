@@ -7,11 +7,34 @@
   src: url('HARRP___.TTF');
 }
 #container {
-    background: url("../images/bg.jpg") no-repeat;
-    width: 1280px;
-    height: 900px;
-    text-align: center;
+    background: url("../images/duel2.jpg") no-repeat;
+    background-size: cover;
+    width: 1450px;
+    height: 880px;
+    text-align: left;
+    padding-left: 60px;
 }
+#button1{
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+  font-family: 'HP';
+  color: red;
+  background-color: transparent;
+  border: none;
+
+}
+#rightcontent{
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+#leftcontent{
+    display: inline-block;
+}
+
 #battle_gild {
     text-align: center;
     padding: 20px;
@@ -20,7 +43,6 @@
 }
 .img {
     position: relative;
-    float: center;
     width:  100px;
     height: 100px;
     background-repeat: no-repeat;
@@ -86,8 +108,6 @@ button#submit{
     padding-left: 500px;
 }
 #attacks{
-    /*position: relative;*/
-    /*text-align: center;*/
     margin-left: 82px;
     width:  350px;
     height: 450px;
@@ -97,7 +117,6 @@ button#submit{
   margin-left: 145px;
   /*text-align: center;*/
 }
-
 
 a{
   text-decoration: none;

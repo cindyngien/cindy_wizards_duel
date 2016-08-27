@@ -15,15 +15,20 @@
     <title>Welcome</title>
     <body>
         <div id="container">
-          <h1>Choose Your Opponent</h1>
-            <a href="{% url 'duel:lockhart' %}"><img class ='img' src="{% static 'harry_app/images/gild.jpg' %}" />
-            <h2>Gilderoy Lockhart</h2></a>
-            <a href="{% url 'duel:potter' %}"><img class ='img' src="{% static 'harry_app/images/harry.jpg' %}" />
-            <h2>Harry Potter</h2></a>
-            <img class ='img' src="{% static 'harry_app/images/pom.jpg' %}" />
-            <h2>Pomona Sprout</h2>
-            <img class ='img' src="{% static 'harry_app/images/malfoy.jpg' %}" />
-            <h2>Draco Malfoy</h2>
+            <div id="leftcontent">
+              <h1>Choose Your Opponent</h1>
+                <a href="{% url 'duel:lockhart' %}"><img class ='img' src="{% static 'harry_app/images/gild.jpg' %}" />
+                <h2>Gilderoy Lockhart</h2></a>
+                <a href="{% url 'duel:potter' %}"><img class ='img' src="{% static 'harry_app/images/harry.jpg' %}" />
+                <h2>Harry Potter</h2></a>
+                <img class ='img' src="{% static 'harry_app/images/pom.jpg' %}" />
+                <h2>Pomona Sprout</h2>
+                <img class ='img' src="{% static 'harry_app/images/malfoy.jpg' %}" />
+                <h2>Draco Malfoy</h2>
+            </div>
+            <div id="rightcontent">
+                <a href="{% url 'house:index' %}"><button id="button1">Choose a different house</button></a>
+            </div>
         </div>
     </body>
 </html>
